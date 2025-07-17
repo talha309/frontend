@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Quiz</title>
+    <style>
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            background-color: aqua;
+        }
+        p {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <form action="post">
+        <h1>Quick Quiz</h1>
+        <div>
+            <label for="name">What is your Name:</label>
+            <input type="text" id="name" placeholder="Name" required autofocus>
+        </div>
+        <div>
+            <label for="city">What is your City:</label>
+            <input type="text" id="city" placeholder="City" required>
+        </div>
+        <div>
+            <label for="pincode">What is your Pincode:</label>
+            <input type="text" id="pincode" placeholder="Pincode" required>
+        </div>
+    </form>
+    <p>Note: Please fill out the form above to participate in the quiz.</p>
+    <p>Thank you for participating in the quiz!</p>
+</body>
+</html>
